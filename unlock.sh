@@ -201,6 +201,9 @@ address=/primevideo.info/$1
 address=/primevideo.org/$1
 address=/primevideo.tv/$1
 address=/pv-cdn.net/$1
+address=/pornhub.com/$1
+address=/cn.pornhub.com/$1
+address=/rt.pornhub.com/$1
 EOF
 fi
 	
