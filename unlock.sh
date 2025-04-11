@@ -27,7 +27,7 @@ fi
 
 if [ $? -eq 0 ]; then
 	#下载域名列表文件
-	wget -O proxy-domains.txt https://raw.githubusercontent.com/myxuchangbin/dnsmasq_sniproxy_install/master/proxy-domains.txt
+	wget -O proxy-domains.txt https://raw.githubusercontent.com/mmfdsfsd/dnsmasq_sniproxy_install/master/proxy-domains.txt
 	systemctl enable dnsmasq
 	chattr -i /etc/resolv.conf
 	
